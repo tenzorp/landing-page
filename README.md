@@ -1,2 +1,2 @@
-# portfolio-landing-page
-Sample landing page for a portfolio website
+# landing-page
+Sample landing page for a website based on a mockup from The Odin Project.
