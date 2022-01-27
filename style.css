@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: #1F2937;
+    color: #e5e7eb;
+
+}
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 10px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 50px 150px;
+    gap: 16px;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: darkgray;
+    flex: 1;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #F9FAF8;
+    color: black;
+    padding: 50px 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section.quote {
+    background: #E5E7EB;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 16px;
+    background: #3882F6;
+    color: #E5E7EB;
+}
+
+.action button {
+    border: 2px solid #E5E7EB;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.items {
+    display: flex;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.item-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.quote-title {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.quote .text {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    background: #3882F6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
